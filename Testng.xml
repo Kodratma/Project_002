@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+<!--    <test name="com.Oragne.HRM.App" >-->
+<!--        <classes>-->
+<!--            <class name="com.Orange.testPages" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <listeners>-->
+<!--        <listener class-name="com.Orange.testPages.LoginTest"/>-->
+<!--    </listeners>-->
+    <test name="Regression1">
+        <classes>
+            <class name="com.Orange.testPages.LoginTest"/>
+            <class name="com.Orange.testPages.ResetPasswordPageTest"/>
+            <class name="com.Orange.testPages.SendResetPasswordLinkPageTest"/>
+            <class name="com.Orange.testPages.PIMPageTest"/>
+            <class name="com.Orange.testPages.PIMAddEmployeePageTest"/>
+            <class name="com.Orange.testPages.PIMConfigurationPageTest"/>
+            <class name="com.Orange.testPages.AdminPageTest"/>
+            <class name="com.Orange.testPages.HomePageTest"/>
+        </classes>
+    </test>
+</suite>
