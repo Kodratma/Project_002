@@ -17,23 +17,20 @@ This project is a **Selenium-based test automation framework** built using **Jav
 ---
 
 ## 📁 Project Structure
+
+```
 Project_002/
-│
 ├── src/
-│   ├── main/
-│   │   └── java/
-│   │       ├── base/              # Base classes (e.g., BaseTest, BasePage)
-│   │       ├── pages/             # Page Object classes (POM)
-│   │       └── utils/             # Utility classes (e.g., driver, wait, config)
-│   │
-│   └── test/
-│       └── java/
-│           └── tests/             # TestNG test classes
-│
-├── screenshots/                   # Screenshots on test failure
-├── test-output/                   # TestNG reports (auto-generated)
-├── pom.xml                        # Maven dependencies and config
-├── testng.xml                     # TestNG test suite configuration
-├── .gitignore                     # Files and folders to ignore
-└── README.md                      # Documentation
+│   ├── main/java/
+│   │   ├── base/              # Base classes (BasePage, WebDriver setup)
+│   │   ├── pages/             # Page Object Model classes
+│   │   └── utils/             # Utility functions (e.g., wait handlers)
+│   └── test/java/
+│       └── tests/             # Test classes using TestNG
+├── screenshots/               # Screenshots on test failure
+├── test-output/               # TestNG reports
+├── pom.xml                    # Maven configuration
+├── testng.xml                 # Test suite configuration
+└── README.md                  # Project documentation
+```
 
