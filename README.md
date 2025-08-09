@@ -34,3 +34,10 @@ Project_002/
 └── README.md                  # Project documentation
 ```
 
+---
+
+## 🖼️ Login Page Screenshot
+
+This is the login page of the OrangeHRM system used in this automation project:
+
+![OrangeHRM Login](screenshots/orangehrm-login.png)
