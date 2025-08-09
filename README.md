@@ -44,16 +44,6 @@ Project_002/
 
 Here are some UI screenshots from the OrangeHRM test automation project:
 
-### 🔐 Login Page
-![Login Page](screenshots/login_page.png)
-
-### 📊 Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### ➕ Add Employee Form
-![Add Employee](screenshots/add_employee.png)
-
-### ❌ Error Message Example
-![Error Message](screenshots/error_message.png)
+https://github.com/Kodratma/Project_002/tree/master/screenshots
 
 
